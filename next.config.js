@@ -49,6 +49,24 @@ const nextConfig = {
       type: "javascript/auto",
     });
 
+    // ✅ Fix Coinbase JSON import issue from @base-org/account
+    config.module.rules.push({
+      test: /\.js$/,
+      include: /@base-org[\\/]account/,
+      use: {
+        loader: "babel-loader",
+        options: {
+          presets: ["next/babel"],
+          plugins: [
+            [
+              "@babel/plugin-transform-modules-commonjs",
+              { allowTopLevelThis: true },
+            ],
+          ],
+        },
+      },
+    });
+
     return config;
   },
   // If you're using static export

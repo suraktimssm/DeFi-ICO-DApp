@@ -10,24 +10,45 @@
     "clear": "rm -rf node_modules package-lock.json .next out"
   },
   "dependencies": {
+    "@base-org/account": "^2.3.1",
+    "@coinbase/wallet-sdk": "^4.3.7",
     "@formspree/react": "^2.5.4",
     "@next/font": "13.2.4",
-    "@rainbow-me/rainbowkit": "^2.1.7",
+    "@rainbow-me/rainbowkit": "^2.2.8",
+    "@reown/appkit": "^1.8.6",
     "@tanstack/react-query": "^5.59.0",
-    "ethers": "^5.7.2",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-hot-toast": "^2.5.2",
+    "@vanilla-extract/css": "^1.17.4",
+    "@vanilla-extract/sprinkles": "^1.6.5",
+    "@walletconnect/ethereum-provider": "^2.21.8",
+    "@walletconnect/universal-provider": "^2.21.8",
+    "ethers": "^5.8.0",
+    "next": "^13.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.6.0",
     "react-icons": "^5.5.0",
-    "viem": "^2.21.19",
-    "wagmi": "^2.12.17",
+    "viem": "^2.37.6",
+    "wagmi": "^2.17.0",
     "web3modal": "^1.9.12"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "@babel/preset-env": "^7.28.5",
     "@tailwindcss/forms": "^0.5.9",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.1"
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "next-transpile-modules": "^10.0.1",
+    "postcss": "^8.5.6",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1",
+    "tailwindcss": "^3.4.18",
+    "typescript": "^5.9.2"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.9",
+    "utf-8-validate": "^5.0.10"
   }
 }
