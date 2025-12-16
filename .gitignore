@@ -41,4 +41,6 @@ typechain-types
 # Hardhat files
 cache
 
+node.exe
+web3/node.exe
 
