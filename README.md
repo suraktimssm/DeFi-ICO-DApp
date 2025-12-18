@@ -23,8 +23,8 @@ To demonstrate a **real-world ICO workflow** using blockchain fundamentals such 
 | 🧠 **Smart Contracts**        | Solidity                                                              |
 | ⚙️ **Development**            | Hardhat, Remix IDE                                                    |
 | 🌐 **Frontend**               | Next.js (React), JavaScript, CSS                                      |
-| 🔗 **Web3 Integration**       | Ethers.js (JavaScript-based)                                          |
-| 👛 **Wallet**                 | MetaMask                                                              |
+| 🔗 **Web3 Integration**       | Ethers.js (JavaScript-based), Web3.js, Wagmi, Web3 Provider           |
+| 👛 **Wallet**                 | MetaMask (used), (Rainbow, Coinbase, Wallet Connect) (integrated)     |
 | ⛓️ **Blockchain**             | Ethereum (Sepolia Testnet)                                            |
 | 🚀 **Deployment**             | Vercel                                                                |
 | 🤖 **Scripting & Automation** | Shell Script, Batchfile, PowerShell, VBScript (minor utility usage)   |
