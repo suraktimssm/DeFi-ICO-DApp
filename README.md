@@ -35,7 +35,7 @@ To demonstrate a **real-world ICO workflow** using blockchain fundamentals such 
 
 ### 1️⃣ **ERC-20 Token Contract**
 
-- Implemented using **Solidity** and **OpenZeppelin ERC-20 standard**.
+- Implemented using **Solidity** ERC-20 standard**.
 - Fixed total supply minted at deployment.
 - Tokens are securely transferred to buyers via the ICO contract.
 - Fully compliant with Ethereum token standards.
