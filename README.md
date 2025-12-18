@@ -117,3 +117,21 @@ To demonstrate a **real-world ICO workflow** using blockchain fundamentals such 
 ```bash
 git clone https://github.com/suraktimssm/DeFi-ICO-DApp.git
 cd DeFi-ICO-DApp
+
+---
+
+## 🛠️ Prerequisites & Setup
+
+### Install VS Code Editor
+- **Download:** https://code.visualstudio.com/download
+
+---
+
+### 📦 Node.js & NPM Version
+- **Node.js:** v18.17.1 (LTS / Recommended)
+- **NPM:** 8.19.2
+- **Download:** https://nodejs.org/en/download
+
+---
+
+
