@@ -1,48 +1,118 @@
-# DeFi ICO DApp 🚀
+# 🚀 DeFi ICO DApp
 
-A decentralized Initial Coin Offering (ICO) DApp built on Ethereum that enables users to securely participate in a token sale using smart contracts and Web3 wallets.
-
----
-
-## 🔹 Project Overview
-
-This project implements an ERC-20 token-based ICO where users can invest ETH to purchase tokens. The entire sale logic is handled on-chain using Solidity smart contracts, while the frontend provides a seamless Web3 user experience.
+> **A decentralized Initial Coin Offering (ICO) platform built with Solidity, Next.js, and Web3 that enables secure token sales on Ethereum using smart contracts.**
 
 ---
 
-## 🔹 Features
+## 🧠 Overview
 
-- ERC-20 token creation and management
-- ICO smart contract with token sale logic
-- ETH-based token purchase
-- Owner-controlled ICO lifecycle
-- MetaMask wallet integration
-- Real-time transaction handling on Ethereum
+In the evolving Web3 ecosystem, fundraising without intermediaries is critical.  
+The **DeFi ICO DApp** is designed to provide a **transparent, secure, and decentralized token sale mechanism** where users can purchase ERC-20 tokens directly using **ETH**, without relying on centralized platforms.
 
----
+This project leverages **Ethereum smart contracts** to manage the entire ICO lifecycle — from token pricing to distribution — while a **Next.js frontend** delivers a smooth Web3 user experience via MetaMask.
 
-## 🔹 Tech Stack
-
-- **Smart Contracts:** Solidity, Hardhat  
-- **Frontend:** Next.js  
-- **Web3 Libraries:** Ethers.js  
-- **Wallet Integration:** MetaMask  
-- **Blockchain:** Ethereum (EVM-compatible)
+💡 **Goal:**  
+To demonstrate a **real-world ICO workflow** using blockchain fundamentals such as smart contracts, wallets, transactions, and on-chain transparency.
 
 ---
 
-## 🔹 How It Works
+## ⚙️ Tech Stack
 
-1. User connects wallet using MetaMask  
-2. Smart contract handles token purchase logic  
-3. Tokens are transferred automatically after successful payment  
-4. All transactions are recorded on the blockchain  
+| Layer                     | Tools / Frameworks Used                          |
+| ------------------------- | ------------------------------------------------ |
+| 🧠 **Smart Contracts**    | Solidity, OpenZeppelin                           |
+| ⚙️ **Development**        | Hardhat, Remix IDE                               |
+| 🌐 **Frontend**           | Next.js (React)                                  |
+| 🔗 **Web3 Integration**   | Ethers.js                                        |
+| 👛 **Wallet**             | MetaMask                                        |
+| ⛓️ **Blockchain**         | Ethereum (Sepolia Testnet)                       |
+| 🚀 **Deployment**         | Vercel                                          |
 
 ---
 
-## 🔹 Installation & Setup
+## 📦 Core Modules
+
+### 1️⃣ **ERC-20 Token Contract**
+
+- Implemented using **Solidity** and **OpenZeppelin ERC-20 standard**.
+- Fixed total supply minted at deployment.
+- Tokens are securely transferred to buyers via the ICO contract.
+- Fully compliant with Ethereum token standards.
+
+---
+
+### 2️⃣ **ICO Smart Contract**
+
+- Handles ETH-based token purchases.
+- Dynamically calculates tokens based on token price and decimals.
+- Transfers purchased tokens instantly to the buyer’s wallet.
+- Sends received ETH directly to the contract owner.
+- Prevents accidental ETH transfers using fallback protection.
+- Maintains on-chain records such as total tokens sold.
+
+---
+
+### 3️⃣ **Transaction Handling Module**
+
+- Each purchase triggers a blockchain transaction.
+- Token transfers and ETH transfers are atomic and trustless.
+- Events are emitted for transparency and tracking.
+- Transaction details are reflected in the frontend UI.
+
+---
+
+### 4️⃣ **Frontend (Next.js Web App)**
+
+- Built using **Next.js and React components**.
+- Wallet connection handled through **MetaMask**.
+- Displays:
+  - Token details
+  - Sale progress
+  - Token price
+  - Purchased amount
+- Includes a token calculator for estimating returns.
+- Real-time updates based on blockchain data.
+
+---
+
+## 🎯 Project Objectives
+
+✅ Implement a decentralized ICO mechanism.  
+✅ Eliminate third-party intermediaries in fundraising.  
+✅ Ensure transparency using blockchain transactions.  
+✅ Demonstrate secure ETH → Token conversion logic.  
+✅ Build a production-ready Web3 frontend.
+
+---
+
+## 🧾 Token Details
+
+| Attribute        | Value            |
+| ---------------- | ---------------- |
+| Token Name       | LINKTUM          |
+| Token Symbol     | LTUM             |
+| Token Standard   | ERC-20           |
+| Total Supply     | 10,000,000,000   |
+| Decimals         | 18               |
+| Network          | Ethereum Sepolia |
+
+---
+
+## 🧩 How It Works
+
+1️⃣ User connects their wallet using **MetaMask**.  
+2️⃣ User enters the ETH amount to invest.  
+3️⃣ Smart contract calculates token quantity using on-chain logic.  
+4️⃣ ETH is transferred to the owner wallet.  
+5️⃣ Tokens are transferred instantly to the user.  
+6️⃣ Transaction details are permanently recorded on the blockchain.
+
+---
+
+## 🛠️ Setup Instructions
+
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/suraktimssm/DeFi-ICO-DApp.git
 cd DeFi-ICO-DApp
-npm install
