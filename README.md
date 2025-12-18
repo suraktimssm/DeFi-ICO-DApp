@@ -18,15 +18,16 @@ To demonstrate a **real-world ICO workflow** using blockchain fundamentals such 
 
 ## ⚙️ Tech Stack
 
-| Layer                     | Tools / Frameworks Used                          |
-| ------------------------- | ------------------------------------------------ |
-| 🧠 **Smart Contracts**    | Solidity, OpenZeppelin                           |
-| ⚙️ **Development**        | Hardhat, Remix IDE                               |
-| 🌐 **Frontend**           | Next.js (React)                                  |
-| 🔗 **Web3 Integration**   | Ethers.js                                        |
-| 👛 **Wallet**             | MetaMask                                        |
-| ⛓️ **Blockchain**         | Ethereum (Sepolia Testnet)                       |
-| 🚀 **Deployment**         | Vercel                                          |
+| Layer                         | Tools / Frameworks Used                                                |
+| -------------------------     | ------------------------------------------------                       |
+| 🧠 **Smart Contracts**        | Solidity                                                              |
+| ⚙️ **Development**            | Hardhat, Remix IDE                                                    |
+| 🌐 **Frontend**               | Next.js (React), JavaScript, CSS                                      |
+| 🔗 **Web3 Integration**       | Ethers.js (JavaScript-based)                                          |
+| 👛 **Wallet**                 | MetaMask                                                              |
+| ⛓️ **Blockchain**             | Ethereum (Sepolia Testnet)                                            |
+| 🚀 **Deployment**             | Vercel                                                                |
+| 🤖 **Scripting & Automation** | Shell Script, Batchfile, PowerShell, VBScript (minor utility usage)   |
 
 ---
 
